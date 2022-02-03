@@ -9,9 +9,9 @@
   --secondary-brown2:#ce860b;
   --orange1:#FBBF24;
   --orange2:#FCD34D;
-  --yellow:#f6fd8e;
+  --yellow:#FCF3CF;
   --black-text: #555;
-  --yellow-light:#faffb7;
+  --yellow-light:#F9EBEA;
 }
 .sec-Brown{
   color:var(--secondary-brown1)
@@ -26,7 +26,7 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: "Jost", sans-serif;
   word-spacing: 8px;
 }
