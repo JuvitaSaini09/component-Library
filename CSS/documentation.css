@@ -1,7 +1,8 @@
 .navigation {
     background-color: var(--yellow);
     padding: 1rem;
-    box-shadow: 2 burlywood;
+  
+    
 }
 .logo {
     color: var(--primary-brown1);
@@ -14,6 +15,7 @@
 }
 
 #nav-container {
+   
     width: 100%;
     position: fixed;
     top: 0;
