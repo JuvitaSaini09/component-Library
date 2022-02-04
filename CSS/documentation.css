@@ -8,10 +8,18 @@
     color: var(--primary-brown1);
 }
 .drawer{
-    background-color:var(--yellow-light);
-    position:fixed;
     border-radius: 7px;
+    color:var(--grey);
+    margin-right:4rem;
     
+}
+.component-container{
+    text-align:left;
+
+}
+iframe{
+    width:851px;
+    height:303px;
 }
 
 #nav-container {
@@ -20,7 +28,26 @@
     position: fixed;
     top: 0;
 }
+iframe{
+    overflow-x: auto;
+    
+}
 
+
+
+@media screen and (max-width:1100px) {
+    iframe{
+        width:651px;
+        height:303px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    iframe{
+        width:451px;
+        height:303px;
+    }
+}
 @media screen and (max-width:600px) {
 
     .h1 {
@@ -32,8 +59,21 @@
         font-size: 20px;
         line-height: 24px;
     }
+
+    .p4{
+        font-size:13px;
+    }
+    
+    iframe{
+        width:400px;
+        height:303px;
+    }
     .drawer{
         visibility: hidden;
+        width:0px;
+        height:0px;
+        padding:0px;
+        margin:0px;
     }
 
 }

@@ -1,5 +1,6 @@
 @import url(./typography.css);
 @import url(./documentation.css);
+@import url(/CSS/components/avatar.css);
 
 :root {
   --black: #212529;
@@ -12,6 +13,10 @@
   --yellow:#FCF3CF;
   --black-text: #555;
   --yellow-light:#F9EBEA;
+  --grey:rgb(66, 64, 64);
+}
+.primary-brown{
+  color:var(--primary-brown1);
 }
 .sec-Brown{
   color:var(--secondary-brown1)
@@ -28,7 +33,7 @@
 
 body{
   font-family: "Jost", sans-serif;
-  word-spacing: 8px;
+  word-spacing: 6px;
 }
 a{
   text-decoration: none;
@@ -39,7 +44,7 @@ li{
 
 .flex-row {
   display: flex;
-  flex-wrap: wrap;
+
 }
 
 .flex-column {
