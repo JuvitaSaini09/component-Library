@@ -13,7 +13,9 @@
   --yellow:#FCF3CF;
   --black-text: #555;
   --yellow-light:#F9EBEA;
+  --dark-grey:rgb(56, 54, 54);
   --grey:rgb(66, 64, 64);
+  --light-grey:rgb(94, 88, 88);
 }
 .primary-brown{
   color:var(--primary-brown1);
@@ -23,6 +25,10 @@
 }
 .sec-Brown2{
   color:var(--secondary-brown2)
+}
+.light-grey{
+  color:var(--light-grey);
+
 }
 
 * {
