@@ -1,6 +1,6 @@
 @import url(./typography.css);
 @import url(./documentation.css);
-@import url(/CSS/components/avatar.css);
+@import url(/CSS/components/alert.css);
 
 :root {
   --black: #212529;

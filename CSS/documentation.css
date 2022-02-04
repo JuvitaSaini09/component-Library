@@ -10,8 +10,17 @@
 .drawer{
     border-radius: 7px;
     color:var(--grey);
-    margin-right:4rem;
-    
+    height: 100%;
+    width: 180px;
+    position: fixed; 
+    z-index: 1; 
+    top: 100px; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.main-body{
+    margin-left:15rem;
 }
 .component-container{
     text-align:left;
@@ -32,6 +41,9 @@ iframe{
     overflow-x: auto;
     
 }
+.text p{
+    width:60%;
+}
 
 
 
@@ -46,6 +58,9 @@ iframe{
     iframe{
         width:451px;
         height:303px;
+    }
+    .text p{
+        width:80%;
     }
 }
 @media screen and (max-width:600px) {
@@ -73,7 +88,11 @@ iframe{
         width:0px;
         height:0px;
         padding:0px;
-        margin:0px;
+        margin:0px
     }
+    .main-body{
+        margin-left:2rem;
+    }
+  
 
 }

@@ -3,7 +3,6 @@
     display:flex;
     flex-flow:wrap column;
     align-items:flex-start;
- 
     
 }
 
@@ -50,6 +49,11 @@
     color:#155e75;
     background-color:#cffafe;
     border:0.5px solid #67e8f9;
+}
+@media screen and (max-width:900px){
+    .alert{
+        width:300px;
+    }
 }
 
 @media screen and (max-width:600px){
