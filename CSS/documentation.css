@@ -1,8 +1,6 @@
 .navigation {
     background-color: var(--yellow);
     padding: 1rem;
-  
-    
 }
 .logo {
     color: var(--primary-brown1);
@@ -43,6 +41,9 @@ iframe{
 }
 .text p{
     width:60%;
+}
+h3{
+    color:var(--grey);
 }
 
 

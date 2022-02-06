@@ -1,6 +1,9 @@
 @import url(./typography.css);
 @import url(./documentation.css);
 @import url(/CSS/components/alert.css);
+@import url(/CSS/components/avatar.css);
+@import url(/CSS/components/badge.css);
+
 
 :root {
   --black: #212529;
@@ -29,6 +32,10 @@
 .light-grey{
   color:var(--light-grey);
 
+}
+.grey
+{
+  color:var(--grey);
 }
 
 * {
