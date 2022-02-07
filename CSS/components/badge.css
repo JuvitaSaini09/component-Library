@@ -1,20 +1,18 @@
+.badge-container{
+ display:flex;
+ gap:2rem;
+}
 .badge-parent {
     position: relative;
     max-width: fit-content;
     padding: 3px;
-
-  }
-  .badge-img-parent {
-    position: relative;
-    padding: 3px;
-  }
-    
+  
+  }   
   .badge {
     position: absolute;
     background-color: red;
     color: white;
-    height:25px;
-    width:25px;
+   max-width: fit-content;
     border-radius: 50%;
     text-align:center;
     padding: 5px;

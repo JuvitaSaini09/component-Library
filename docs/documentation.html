@@ -39,15 +39,14 @@
     <main class="main-body mt7">
 
 
-
         <!-------------Drawer---------->
 
         <section class="drawer  flex-column pd1">
             <ul class="flex-column ">
                 <li class="sec-Brown font-weight-bold p4 pb1">Components</li>
+                <li><a href="#alerts" class="p4">Alert</a></li>
                 <li><a href="#avatar" class="p4">Avatar</a></li>
-                <li><a href="#alerts"class="p4">Alert</a></li>
-                <li><a  class="p4">Badge</a></li>
+                <li><a href="#badge" class="p4">Badge</a></li>
                 <li><a class="p4">Button</a></li>
                 <li><a class="p4">Card</a></li>
                 <li><a class="p4">Image</a></li>
@@ -70,8 +69,7 @@
 
             <!---------Alert componenet-------->
             <div class="text pb2 " id="alerts">
-
-                <h2 class="pb1" >Alerts</h2><br>
+                <h2 class="pb1">Alerts</h2><br>
                 <p class="pb2">Provide contextual feedback messages for typical user actions with the handful of
                     available and
                     flexible alert messages.</p>
@@ -86,102 +84,132 @@
                 <button class="alert warning-alert">This is a warning alert !</button>
                 <button class="alert info-alert">This is a simple info alert !</button>
             </div>
-                    <div class="iframe-code pb1 flex-column">
-                        <iframe
-                            src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520white-alert%2522%253EThis%2520is%2520a%2520white%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520danger-alert%2522%253EThis%2520is%2520a%2520danger%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520warning-alert%2522%253EThis%2520is%2520a%2520warning%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520info-alert%2522%253EThis%2520is%2520a%2520simple%2520info%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E"
-                            style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                            sandbox="allow-scripts allow-same-origin">
-                        </iframe>
-                    </div>
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522alert-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520primary-alert%2522%253EThis%2520is%2520a%2520primary%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520secondary-alert%2522%253EThis%2520is%2520a%2520secondary%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520white-alert%2522%253EThis%2520is%2520a%2520white%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520danger-alert%2522%253EThis%2520is%2520a%2520danger%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520warning-alert%2522%253EThis%2520is%2520a%2520warning%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522alert%2520info-alert%2522%253EThis%2520is%2520a%2520simple%2520info%2520alert%2520%21%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
 
 
 
-                    <!------Avatar component--------->
-                    
-                    <div class="text pb2 mt4" id="avatar">
+            <!------Avatar component--------->
 
-                        <h2 class="pb1" >Avatars</h2><br>
-                        <p class="pb2">Provide contextual feedback messages for typical user actions with the handful of
-                            available and
-                            flexible alert messages.</p>
-                        <h3>Examples</h3>
-                    </div>
+            <div class="text pb2 mt4" id="avatar">
 
-                    <div class="avatar-container">
-                        <img class="avatar avatar-xl" src="/docs/assets/avatar.jpg">
-                        <img class="avatar avatar-l" src="/docs/assets/avatar.jpg">
-                        <img class="avatar avatar-m" src="/docs/assets/avatar.jpg">
-                        <img class="avatar avatar-s" src="/docs/assets/avatar.jpg">
-                    </div>
+                <h2 class="pb1">Avatars</h2><br>
+                <p class="pb2">Provide contextual feedback messages for typical user actions with the handful of
+                    available and
+                    flexible alert messages.</p>
+                <h3>Examples</h3>
+            </div>
 
-
-                            <div class="iframe-code pb2 flex-column">
-                                <iframe
-                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-m%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E"
-                                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                                    sandbox="allow-scripts allow-same-origin">
-                                </iframe>
-                            </div>
-
-                            <div class="avatar-container">
-                                <img class="avatar sq-avatar-xl" src="/docs/assets/avatar.jpg">
-                                <img class="avatar sq-avatar-l" src="/docs/assets/avatar.jpg">
-                                <img class="avatar sq-avatar-m" src="/docs/assets/avatar.jpg">
-                                <img class="avatar sq-avatar-s" src="/docs/assets/avatar.jpg">
-                            </div>
-
-                            <div class="iframe-code pb2 flex-column">
-                                <iframe
-                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-xl%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-l%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-m%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-s%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
-                                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
-                                    sandbox="allow-scripts allow-same-origin">
-                                </iframe>
-                            </div>
+            <div class="avatar-container">
+                <img class="avatar avatar-xl" src="/docs/assets/avatar.jpg">
+                <img class="avatar avatar-l" src="/docs/assets/avatar.jpg">
+                <img class="avatar avatar-m" src="/docs/assets/avatar.jpg">
+                <img class="avatar avatar-s" src="/docs/assets/avatar.jpg">
+            </div>
 
 
-                            <div class="avatar-container">
-                                <button class="avatar avatar-l">HU</button>
-                                <button class="avatar avatar-m">KI</button>
-                                <button class="avatar avatar-s">JS</button>
-                            </div>
+            <div class="iframe-code pb2 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-m%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520avatar-s%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
-                            <div class="iframe-code pb2 flex-column">
-                                <iframe
-                                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-l%2522%2520%253EHU%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-m%2522%2520%253EKI%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-s%2522%2520%253EJS%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
-                                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
-                                    sandbox="allow-scripts allow-same-origin">
-                                </iframe>
-                            </div>
+            <div class="avatar-container">
+                <img class="avatar sq-avatar-xl" src="/docs/assets/avatar.jpg">
+                <img class="avatar sq-avatar-l" src="/docs/assets/avatar.jpg">
+                <img class="avatar sq-avatar-m" src="/docs/assets/avatar.jpg">
+                <img class="avatar sq-avatar-s" src="/docs/assets/avatar.jpg">
+            </div>
 
-                            <div class="avatar-container">
-                                <button class="avatar sq-avatar-l">HU</button>
-                                <button class="avatar sq-avatar-m">KI</button>
-                                <button class="avatar sq-avatar-s">JS</button>
-                            </div>
-
-                            <div class="iframe-code pb2 flex-column">
-                                <iframe
-                                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-l%2522%253EHU%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-m%2522%253EKI%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-s%2522%253EJS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-                                style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                                sandbox="allow-scripts allow-same-origin">
-                              </iframe>
-                            </div>
+            <div class="iframe-code pb2 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-xl%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-l%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-m%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar%2520sq-avatar-s%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%2520%2520%253C%252Fdiv%253E"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
 
-                            
-                            
-                            <span class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span>
-                           
+            <div class="avatar-container">
+                <button class="avatar avatar-l">HU</button>
+                <button class="avatar avatar-m">KI</button>
+                <button class="avatar avatar-s">JS</button>
+            </div>
+
+            <div class="iframe-code pb2 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-l%2522%2520%253EHU%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-m%2522%2520%253EKI%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520avatar-s%2522%2520%253EJS%253C%252Fbutton%253E%250A%2520%2520%2520%253C%252Fdiv%253E"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <div class="avatar-container">
+                <button class="avatar sq-avatar-l">HU</button>
+                <button class="avatar sq-avatar-m">KI</button>
+                <button class="avatar sq-avatar-s">JS</button>
+            </div>
+
+            <div class="iframe-code pb2 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=31px&ph=27px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-l%2522%253EHU%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-m%2522%253EKI%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522avatar%2520sq-avatar-s%2522%253EJS%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+            <!---------badge componenet-------->
+            <div class="text pb2 " id="badge">
+
+                <h2 class="pb1 mt4">Badges</h2><br>
+                <p class="pb2">Badges scale to match the size of the immediate parent element by using relative font
+                    sizing and em units.</p>
+                <h3>Examples</h3>
+            </div>
+
+            <div class="badge-container pb2">
+
+                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+
+                <div class="badge-parent"><i class="fa-solid fa-bell fa-3x"></i><span class="badge">+99</span></div>
+
+                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+
+                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+
+            </div>
+
+            <div class="iframe-code pb1 flex-column">
+                <iframe></iframe>
+                </iframe>
+            </div>
+
+
+
+
         </section>
 
 
 
     </main>
-    <br><br><br>
-    <script>
-        let crossBtn = document.querySelector("")
-    </script>
-</body>
+    <span class="badge-parent"><i class="fa-solid fa-bars fa-5x"></i><span class="badge">15</span></span>
+    <i class="fa-brands fa-whatsapp-square fa-5x"></i>
+   
+
+        <br><br><br>
+
+        <script>
+            let crossBtn = document.querySelector("")
+        </script>
+</body> 
 
 </html>
