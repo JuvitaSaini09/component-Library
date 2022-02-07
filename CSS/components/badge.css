@@ -1,21 +1,97 @@
-.badge-container{
- display:flex;
- gap:2rem;
+.badge-container {
+  display: flex;
+  gap: 1rem;
+  align-items: baseline;
 }
+
 .badge-parent {
-    position: relative;
-    max-width: fit-content;
-    padding: 3px;
-  
-  }   
-  .badge {
     position: absolute;
-    background-color: red;
-    color: white;
-   max-width: fit-content;
-    border-radius: 50%;
-    text-align:center;
-    padding: 5px;
-    top: 0px;
-    right: 0px;
-  }
+  position: relative;
+  max-width: fit-content;
+  padding: 3px;
+}
+
+.badge {
+  position: absolute;
+  background-color: red;
+  color: white;
+  max-width: fit-content;
+  border-radius: 50%;
+  text-align: center;
+  padding: 5px;
+  top: 0px;
+  right: 0px;
+  border: 2px solid white;
+}
+
+.bell-badge {
+  height: 30px;
+  width: 3rem;
+  left: 2rem;
+}
+
+.whatsapp-icon {
+  color: rgb(21, 179, 21);
+}
+
+.twitter-icon {
+  left: 5px;
+  color: rgb(37, 171, 224);
+}
+
+.twitter-badge,
+.whatsapp-badge {
+  height: 30px;
+  width: 30px;
+  left: 2.7rem;
+}
+
+.avatar-badge {
+  background-color: aqua;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+
+}
+
+.avatar-badge-parent {
+  position: relative;
+
+}
+
+.avatar-badge {
+  position: absolute;
+  bottom: 70px;
+  right: 5px;
+  z-index: 2;
+  border: 2px white solid;
+}
+
+
+.avatar-xl {
+  bottom: 70px;
+  right: 5px;
+}
+
+.avatar-l {
+  bottom: 1000px;
+  right: 0px;
+}
+
+.avatar-m {
+  bottom: 65px;
+  right: 0px;
+}
+
+
+.online {
+  background-color: rgb(32, 187, 32);
+}
+
+.offline {
+  background-color: grey;
+}
+
+.busy {
+  background-color: red;
+}

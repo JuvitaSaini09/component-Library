@@ -47,8 +47,8 @@
                 <li><a href="#alerts" class="p4">Alert</a></li>
                 <li><a href="#avatar" class="p4">Avatar</a></li>
                 <li><a href="#badge" class="p4">Badge</a></li>
-                <li><a class="p4">Button</a></li>
-                <li><a class="p4">Card</a></li>
+                <li><a href="#button" class="p4">Button</a></li>
+                <li><a href="#card"class="p4">Card</a></li>
                 <li><a class="p4">Image</a></li>
                 <li><a class="p4">Input</a></li>
                 <li><a class="p4">Text Utilities</a></li>
@@ -69,7 +69,7 @@
 
             <!---------Alert componenet-------->
             <div class="text pb2 " id="alerts">
-                <h2 class="pb1">Alerts</h2><br>
+                <h2 class="pb1 h2">Alerts</h2><br>
                 <p class="pb2">Provide contextual feedback messages for typical user actions with the handful of
                     available and
                     flexible alert messages.</p>
@@ -99,7 +99,7 @@
 
             <div class="text pb2 mt4" id="avatar">
 
-                <h2 class="pb1">Avatars</h2><br>
+                <h2 class="pb1 h2">Avatars</h2><br>
                 <p class="pb2">Provide contextual feedback messages for typical user actions with the handful of
                     available and
                     flexible alert messages.</p>
@@ -170,28 +170,305 @@
             <!---------badge componenet-------->
             <div class="text pb2 " id="badge">
 
-                <h2 class="pb1 mt4">Badges</h2><br>
+                <h2 class="h2" class="pb1 mt4">Badges</h2><br>
                 <p class="pb2">Badges scale to match the size of the immediate parent element by using relative font
                     sizing and em units.</p>
-                <h3>Examples</h3>
+                <h2>Examples</h2>
             </div>
+
+            <h3 class="mt3 mb2 h3">Badge on icons</h3>
 
             <div class="badge-container pb2">
 
-                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+                <div class="badge-parent"><i class="far fa-envelope fa-4x"></i><span class="badge">15</span></div>
 
-                <div class="badge-parent"><i class="fa-solid fa-bell fa-3x"></i><span class="badge">+99</span></div>
+                <div class="badge-parent"><i class="far fa-bell fa-4x"></i><span class="badge bell-badge">+99</span>
+                </div>
 
-                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+                <div class="badge-parent"><i class="fab whatsapp-icon fa-whatsapp-square fa-4x"></i><span
+                        class="badge whatsapp-badge">15</span></div>
 
-                <div class="badge-parent"><i class="fas fa-home fa-3x"></i><span class="badge">15</span></div>
+                <div class="badge-parent"><i class="fab twitter-icon fa-twitter-square fa-4x"></i><span
+                        class="badge twitter-badge">15</span></div>
+
+                <div class="badge-parent"><i class="fas fa-shopping-cart fa-3x"></i><span
+                        class="badge twitter-badge">15</span></div>
 
             </div>
 
             <div class="iframe-code pb1 flex-column">
-                <iframe></iframe>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522badge-container%2520pb2%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-parent%2522%253E%253Ci%2520class%253D%2522fas%2520fa-home%2520fa-4x%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522badge%2522%253E15%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-parent%2522%253E%253Ci%2520class%253D%2522far%2520fa-bell%2520fa-4x%2522%253E%253C%252Fi%253E%253Cspan%2520class%253D%2522badge%2520bell-badge%2522%253E%252B99%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-parent%2522%253E%253Ci%2520class%253D%2522fab%2520whatsapp-icon%2520fa-whatsapp-square%2520fa-4x%2522%253E%253C%252Fi%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge%2522%253E15%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-parent%2522%253E%253Ci%2520class%253D%2522fab%2520twitter-icon%2520fa-twitter-square%2520fa-4x%2522%253E%253C%252Fi%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522badge%2520twitter-badge%2522%253E15%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
+
+            <h3 class="mt4 mb2 h3">Badge on avatar</h3>
+
+            <div class="avatar-container badge-container">
+
+                <div class="avatar-badge-parent"><img class="avatar avatar-xl" src="/docs/assets/avatar.jpg"><span
+                        class="avatar-badge online avatar-xl"></span></img></div>
+
+                <div class="avatar-badge-parent"> <img class="avatar avatar-l " src="/docs/assets/avatar.jpg"><span
+                        class="avatar-badge offline badge-l"></span></div>
+
+                <div class="avatar-badge-parent"> <img class="avatar avatar-m" src="/docs/assets/avatar.jpg"><span
+                        class="avatar-badge busy avatar-m"></span></div>
+
+            </div>
+
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522avatar-container%2520badge-container%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge-parent%2522%253E%253Cimg%2520class%253D%2522avatar%2520avatar-xl%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-badge%2520online%2520avatar-xl%2522%253E%253C%252Fspan%253E%253C%252Fimg%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge-parent%2522%253E%2520%253Cimg%2520class%253D%2522avatar%2520avatar-l%2520%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-badge%2520offline%2520badge-l%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522avatar-badge-parent%2522%253E%2520%253Cimg%2520class%253D%2522avatar%2520avatar-m%2522%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%253Cspan%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520class%253D%2522avatar-badge%2520busy%2520avatar-m%2522%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%250A%2520%2520%253C%252Fdiv%253E"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!---------button componenet-------->
+            <div class="text  mt2" id="button">
+                <h2 class="pb1 h2">Buttons</h2><br>
+                <p class="pb2">Custom button styles for actions in forms,
+                    dialogs, and more with support for multiple sizes, states,
+                    and more.</p>
+                <h2>Examples</h2>
+            </div>
+
+
+            <!------------------------------->
+            <!-----------buttons------------->
+            <!------------------------------->
+            <div class="buttons-container mt2 pb2">
+
+                <!-- solid buttons
+        1) Primary 
+        2) secodary 
+        3) success  
+        4) warning 
+        5) Danger 
+                 -->
+
+                <!-- solid-->
+                <h3 class=" mb2 h3">Primary Buttons</h3>
+                <h3>Solid Buttons</h3><br>
+                <button class="btn primary-btn">Primary</button>
+                <button class="btn secondary-btn">Secondary</button>
+                <button class="btn success-btn">Success</button>
+                <button class="btn warning-btn">Warning</button>
+                <button class="btn danger-btn">Danger</button>
+                <br> <br>
+                <div class="iframe-code pb1 flex-column">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522btn%2520danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A"
+                        style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- solid outline-->
+
+                <br><br>
+                <h3>Outline Buttons</h3><br>
+                <button class="btn outline-primary-btn">Primary</button>
+                <button class="btn outline-secondary-btn">Secondary</button>
+                <button class="btn outline-success-btn">Success</button>
+                <button class="btn outline-warning-btn">Warning</button>
+                <button class="btn outline-danger-btn">Danger</button>
+                <br><br>
+
+                <div class="iframe-code pb1 flex-column">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-primary-btn%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-secondary-btn%2522%253ESecondary%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-success-btn%2522%253ESuccess%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-warning-btn%2522%253EWarning%253C%252Fbutton%253E%250A%2520%2520%253Cbutton%2520class%253D%2522btn%2520outline-danger-btn%2522%253EDanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A"
+                        style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-- links-->
+
+                <br><br>
+                <h3 class="h3">Link Buttons</h3><br>
+                <div class="link-btn">
+                    <a href="#" class="btn link-primary-btn">Link 1</a>
+                    <a href="#" class="btn link-secondary-btn">Link 2</a>
+                </div>
+
+                <div class="iframe-code pb1 flex-column">
+                    <iframe
+                        src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522link-btn%2522%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520link-primary-btn%2522%253ELink%25201%253C%252Fa%253E%250A%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522btn%2520link-secondary-btn%2522%253ELink%25202%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                        style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                    </iframe>
+                </div>
+
+                <!-----icon----->
+
+                <br><br>
+                <h3 class="h3">Icon Buttons</h3><br>
+                <button class="icon-btn"> <i class="fa fa-share-alt fa-1x"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-ellipsis-v fa-1x"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-bars"></i>
+                </button>
+                <button class="icon-btn"> <i class="fa fa-thumbs-o-up"></i>
+                </button>
+
+            </div>
+
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-share-alt%2520fa-1x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-ellipsis-v%2520fa-1x%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-bars%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cbutton%2520class%253D%2522icon-btn%2522%253E%2520%253Ci%2520class%253D%2522fa%2520fa-thumbs-o-up%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fbutton%253E%250A"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!--floating button-->
+            <br><br>
+            <h3 class="h3">Floating Button</h3><br>
+            <a href="#" class="float">
+                <i class="fa fa-plus my-float"></i>
+            </a>
+            <br><br>
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522float%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus%2520my-float%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fa%253E%250A"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+
+            <!------- cards---------->
+            <div class="text pb2 " id="card">
+
+                <h2 class="h2" class="pb1 mt4">Cards</h2><br>
+                <p class="pb2">Bootstrap’s cards provide a flexible and extensible content container with multiple
+                    variants and options.</p>
+                <h2>Examples</h2>
+            </div>
+
+            <h3 class="mt3 mb2 h3">Cards</h3>
+            <main id="container">
+                <div id="card1" class="cards">
+                    <div class="card-pic">
+                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
+                        <img src="/docs/assets/likeButton.png" alt="like button" class="like-btn">
+
+                    </div>
+                    <div class="text">
+                        <h2>Chinese Noodles</h2>
+                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
+                            noodles.
+                        </h5>
+                    </div>
+                    <div class="footer">
+                        <button class="button">Retry</button>
+                        <button class="button">Bookmark</button>
+                        <button class="button"><img src="/docs/assets/shareIcon.png" alt="share-btn"></button>
+                        <button class="button"> <img src="/docs/assets/settingButton.jpg" alt="setting-btn"></button>
+                    </div>
+                </div>
+
+                <div class="iframe-code pb1 flex-column">
+                    <iframe
+                    <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522card1%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                  </iframe>
+                </div>
+
+                <!-- card 2-->
+
+                <div id="card2" class="cards">
+                    <div class="text">
+                        <h2>Chinese Noodles</h2>
+                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
+                            noodles.
+                        </h5>
+                    </div>
+                    <div class="card-pic">
+                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
+                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
+
+                    </div>
+
+                    <div class="footer">
+                        <button class="button">Retry</button>
+                        <button class="button">Bookmark</button>
+                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
+                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
+                    </div>
+                </div>
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522card2%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tast%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
+                style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+                <!-- card 3-->
+
+                <div id="card3" class="cards">
+                    <div class="card-pic">
+                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
+                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
+
+                    </div>
+                    <div class="text">
+                        <h2>Chinese Noodles</h2>
+                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
+                            noodles.
+                        </h5>
+                    </div>
+                    <div class="footer">
+                        <button class="button">Retry</button>
+                        <button class="button">Bookmark</button>
+                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
+                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
+                    </div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520id%253D%2522card3%2522%2520class%253D%2522cards%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
+                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+                <!--card 4-->
+                <div id="card4" class="cards">
+                    <div class="card-pic">
+                        <img src="assets/food.jpg" class="food-pic" alt="Picture of Noodles">
+                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
+
+                    </div>
+                    <div class="text">
+                        <h2>Chinese Noodles</h2><br>
+                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
+                            noodles.
+                        </h5>
+                    </div>
+                    <div class="footer">
+                        <button class="button">Retry</button>
+                        <button class="button">Bookmark</button>
+                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
+                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
+                    </div>
+                </div>
+
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520id%253D%2522card4%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%250A"
+                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+
+            </main>
 
 
 
@@ -201,15 +478,14 @@
 
 
     </main>
-    <span class="badge-parent"><i class="fa-solid fa-bars fa-5x"></i><span class="badge">15</span></span>
-    <i class="fa-brands fa-whatsapp-square fa-5x"></i>
-   
 
-        <br><br><br>
 
-        <script>
-            let crossBtn = document.querySelector("")
-        </script>
-</body> 
+
+    <br><br><br>
+
+    <script>
+        let crossBtn = document.querySelector("")
+    </script>
+</body>
 
 </html>

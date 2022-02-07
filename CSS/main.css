@@ -3,6 +3,8 @@
 @import url(/CSS/components/alert.css);
 @import url(/CSS/components/avatar.css);
 @import url(/CSS/components/badge.css);
+@import url(./components/button.css);
+@import url(./components/card.css);
 
 
 :root {

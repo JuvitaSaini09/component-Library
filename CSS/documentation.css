@@ -2,8 +2,11 @@
     background-color: var(--yellow);
     padding: 1rem;
 }
+h2 {
+    color: rgb(138, 8, 8);
+}
 .logo {
-    color: var(--primary-brown1);
+    color:rgb(182, 64, 64);
 }
 .drawer{
     border-radius: 7px;
@@ -22,6 +25,10 @@
 }
 .component-container{
     text-align:left;
+    border:5px solid rgb(182, 64, 64);
+    background-color: rgb(241, 231, 231);
+    padding: 2rem;
+    border-radius: 10px;
 
 }
 iframe{
@@ -97,3 +104,10 @@ h3{
   
 
 }
+/*    <div class="avatar-container .badge-container">
+            <img class="avatar avatar-xl" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-l" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-m" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-s" src="/docs/assets/avatar.jpg">
+        </div>
+        */

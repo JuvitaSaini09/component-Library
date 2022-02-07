@@ -1,0 +1,148 @@
+
+.btn{
+    color:white;
+    border:none;
+    height:40px;
+    width:90px;
+    border-radius:4px;
+    margin:0.3rem;
+    cursor: pointer;
+    background-color:white;
+    font-size: 16px;
+}
+
+.primary-btn{
+  background-color:#007FFF;    
+}
+.secondary-btn{
+    background-color:grey;
+}
+.success-btn{
+    background-color:rgb(18, 163, 18);
+}
+.warning-btn{
+    background-color:orange;
+}
+.danger-btn{
+    background-color:#ee1f1f;
+}
+/* hover */
+.primary-btn:hover{
+  background-color:blue;    
+}
+.secondary-btn:hover{
+    background-color:rgb(65, 59, 59);
+}
+.success-btn:hover{
+    background-color:green;
+}
+.warning-btn:hover{
+    background-color:rgb(233, 102, 15);
+}
+.danger-btn:hover{
+    background-color:#b70000;
+}
+
+
+
+/*  outlline button*/
+
+.outline-primary-btn{
+  color:#007FFF;
+  border:1px solid #007FFF;
+}
+.outline-secondary-btn{
+    color:grey;
+    border:1px solid grey;
+}
+.outline-success-btn{
+    color:green;
+    border:1px solid green;
+}
+.outline-warning-btn{
+    color:orange;
+    border:1px solid orange;
+}
+.outline-danger-btn{
+    color:#cc0000;
+    border:1px solid #cc0000;
+}
+
+
+/* hover */
+.outline-primary-btn:hover{
+    color:white;
+  background-color:#007FFF;    
+}
+.outline-secondary-btn:hover{
+    color:white;
+    background-color:rgb(65, 59, 59);
+}
+.outline-success-btn:hover{
+    color:white;
+    background-color:green;
+}
+.outline-warning-btn:hover{
+    color:white;
+    background-color:rgb(233, 102, 15);
+}
+.outline-danger-btn:hover{
+    color:white;
+    background-color:#b70000;
+}
+
+/*Link buttons */
+.link-primary-btn{
+    text-align: center;
+    display: inline-block;
+ text-decoration:none;
+background-color:#336392;
+padding: 10px;
+
+}
+
+.link-secondary-btn{
+    text-align: center;
+    display: inline-block;
+text-decoration:none;
+    background-color:rgb(100, 96, 96);
+    padding:10px;
+}
+
+.link-primary-btn:hover{
+ background-color: #007FFF;
+ padding:10px;
+}
+.link-secondary-btn:hover{
+    background-color: rgb(65, 63, 63);
+}
+
+
+/* icon-Button */
+.icon-btn{
+color:white;
+background-color:rgb(63, 63, 63);
+border:none;
+height:2rem;
+width:2rem;
+border-radius:50%;
+}
+.icon-btn:hover{
+    background-color:grey;
+}
+/*floating button */
+.float{
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:rgb(69, 102, 212);
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+}

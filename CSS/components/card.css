@@ -1,0 +1,105 @@
+
+.food-pic {
+    height: 300px;
+    width: 100%;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+.cards {
+    margin: 10px;
+    color: brown;
+    flex-basis: 300px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+h2 {
+    color: rgb(138, 8, 8);
+}
+
+.like-btn {
+    position: absolute;
+    bottom: 75px;
+    border-radius: 50%;
+    height: 50px;
+    top: 260px;
+    width: 50px;
+    left: 15px;
+
+}
+
+button:hover {
+    background-color: pink;
+}
+
+.text {
+    padding: 2px;
+    margin: 0 5px 0 5px;
+}
+
+button {
+    color: rgb(119, 13, 119);
+    border-style: none;
+    font-weight: bold;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.button img {
+    height: 18px;
+    width: 16px;
+    margin-left: 40px;
+
+}
+
+#card3 .card-pic .food-pic {
+    height: 200px;
+    width: 150px;
+    ;
+}
+
+#card3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 350px;
+
+}
+
+#card3 div {
+    flex-basis: 150px;
+
+}
+
+#card3 .footer:nth-of-type(3) {
+    flex-basis: 500px;
+
+}
+
+footer {
+    display: inline;
+}
+
+#container #card3 {
+    height: 280px;
+}
+
+#card4 .card-pic .food-pic {
+    height: 350px;
+    width: 100%;
+}
+
+#card4 .text {
+
+    position: relative;
+    bottom: 45px;
+    border-radius: 50%;
+    height: 50px;
+    width: 250px;
+    
+
+}
