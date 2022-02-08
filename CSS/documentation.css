@@ -16,11 +16,20 @@ h2 {
 .logo {
     color:rgb(182, 64, 64);
 }
+.drawer-title{
+    text-align:center;
+    width:200px;
+    border-radius:10px;
+    font-size:26px;
+    background-color:white;
+    color:rgb(138,8,8);
+}
 .drawer{
+    background-color:rgb(138,8,8);
     border-radius: 7px;
     color:var(--grey);
     height: 100%;
-    width: 180px;
+    width: 200px;
     position: fixed; 
     z-index: 1; 
     top: 100px; 
@@ -36,7 +45,10 @@ h2 {
     border:5px solid rgb(182, 64, 64);
     padding: 2rem;
     border-radius: 10px;
-
+}
+.drawer a{
+    font-size:20px;
+    color:white;
 }
 iframe{
     width:851px;

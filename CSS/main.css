@@ -12,11 +12,13 @@
 @import url(/CSS/components/star.css);
 @import url(/CSS/components/modal.css);
 @import url(/CSS/components/toast.css);
+@import url(/CSS/components/text-ut.css);
+@import url(/CSS/components/grid.css);
 
 
 :root {
   --black: #212529;
-  --primary-brown1:#582a06;
+  --primary-brown1:rgb(138,8,8);
   --primary-brown2:#92400E;
   --secondary-brown1:#b87325;
   --secondary-brown2:#ce860b;
@@ -46,6 +48,10 @@
 {
   color:var(--grey);
 }
+.black{
+  color:black;
+}
+
 
 * {
   margin: 0px;

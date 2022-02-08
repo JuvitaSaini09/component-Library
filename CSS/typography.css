@@ -7,11 +7,13 @@
 .h2 {
     font-size: 32px;
     line-height: 40px;
+    color:black;
 }
 
 .h3 {
     font-size: 24px;
     line-height: 32px;
+    color:black;
 }
 
 .h4 {
@@ -20,7 +22,7 @@
 }
 
 .h5 {
-    font-size: 8px;
+    font-size: 12px;
     line-height: 16px;
 }
 
