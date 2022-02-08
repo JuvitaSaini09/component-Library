@@ -48,7 +48,7 @@
                 <li><a href="#avatar" class="p4">Avatar</a></li>
                 <li><a href="#badge" class="p4">Badge</a></li>
                 <li><a href="#button" class="p4">Button</a></li>
-                <li><a href="#card"class="p4">Card</a></li>
+                <li><a href="#card" class="p4">Card</a></li>
                 <li><a class="p4">Image</a></li>
                 <li><a class="p4">Input</a></li>
                 <li><a class="p4">Text Utilities</a></li>
@@ -335,8 +335,8 @@
             <br><br>
             <div class="iframe-code pb1 flex-column">
                 <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522float%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fa%2520fa-plus%2520my-float%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%253C%252Fa%253E%250A"
-                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520card%2520card1%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-badge%2522%253Eon%2520Sale%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1583743814966-8936f5b7be1a%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%25253D%25253D%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ET-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520cotton%2520T-shirt%2520with%2520a%2520white%2520logo%2520on%2520it.very%2520comfortable%2520to%2520wear.Available%2520in%2520all%2520sizes.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%2520%253Ch4%253ERs.%2520300%253C%252Fh4%253E%2520%253Cbutton%253EBuy%253C%252Fbutton%253E%253C%252Ffooter%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style="width: 1024px; height: 316px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
@@ -345,130 +345,188 @@
 
 
             <!------- cards---------->
-            <div class="text pb2 " id="card">
-
-                <h2 class="h2" class="pb1 mt4">Cards</h2><br>
-                <p class="pb2">Bootstrap’s cards provide a flexible and extensible content container with multiple
-                    variants and options.</p>
+            <div class="text  mt2" id="car">
+                <h2 class="pb1 h2">Cards</h2><br>
+                <p class="pb2">CSS cards are great for organizing and enhancing a website's user interface. Each card is
+                    uniquely designed to make it easy for users to read the card content. CSS cards are great for
+                    organizing and enhancing a website's user interface. Each card is uniquely designed to make it easy
+                    for users to read the card content.</p>
                 <h2>Examples</h2>
             </div>
 
-            <h3 class="mt3 mb2 h3">Cards</h3>
-            <main id="container">
-                <div id="card1" class="cards">
-                    <div class="card-pic">
-                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
-                        <img src="/docs/assets/likeButton.png" alt="like button" class="like-btn">
-
+            <!--Card 1-->
+            <h3 class="h3">Cards with badges</h3><br>
+            <div class=" card card1">
+                <div class="card-badge">
+                    <span class="sale-badge">on Sale</span>
+                    <img class="card-image"
+                        src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60">
+                    <div class="card-text">
+                        <h3>T-shirt</h3>
+                        <div> cotton T-shirt with a white logo on it.very comfortable to wear.Available in all sizes.
+                        </div>
                     </div>
-                    <div class="text">
-                        <h2>Chinese Noodles</h2>
-                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
-                            noodles.
-                        </h5>
-                    </div>
-                    <div class="footer">
-                        <button class="button">Retry</button>
-                        <button class="button">Bookmark</button>
-                        <button class="button"><img src="/docs/assets/shareIcon.png" alt="share-btn"></button>
-                        <button class="button"> <img src="/docs/assets/settingButton.jpg" alt="setting-btn"></button>
-                    </div>
+                    <footer class="footer">
+                        <h4>Rs. 300</h4> <button>Buy</button>
+                    </footer>
                 </div>
+            </div>
+            <br><br>
 
-                <div class="iframe-code pb1 flex-column">
-                    <iframe
-                    <iframe
-                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522card1%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A"
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520card%2520card1%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-badge%2522%253Eon%2520Sale%253C%252Fspan%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1583743814966-8936f5b7be1a%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%25253D%25253D%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ET-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520cotton%2520T-shirt%2520with%2520a%2520white%2520logo%2520on%2520it.very%2520comfortable%2520to%2520wear.Available%2520in%2520all%2520sizes.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%2520%253Ch4%253ERs.%2520300%253C%252Fh4%253E%2520%253Cbutton%253EBuy%253C%252Fbutton%253E%253C%252Ffooter%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+            <!--Card 2-->
+            <h3 class="h3">Cards with badge and dismiss</h3><br>
+            <div class=" card card2">
+                <div class="card-badge">
+                    <span class="sale-badge">on Sale</span>
+                    <button class="dismiss-badge">X</button>
+                    <img class="card-image"
+                        src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60">
+                    <div class="card-text">
+                        <h3>T-shirt</h3>
+                        <div> cotton T-shirt with a white logo on it.very comfortable to wear.Available in all sizes.
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <h4>Rs. 300</h4> <button>Buy</button>
+                    </footer>
+                </div>
+            </div>
+            <br><br>
+
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520card%2520card2%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-badge%2522%253Eon%2520Sale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss-badge%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1583743814966-8936f5b7be1a%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%25253D%25253D%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ET-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520cotton%2520T-shirt%2520with%2520a%2520white%2520logo%2520on%2520it.very%2520comfortable%2520to%2520wear.Available%2520in%2520all%2520sizes.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%2520%253Ch4%253ERs.%2520300%253C%252Fh4%253E%2520%253Cbutton%253EBuy%253C%252Fbutton%253E%253C%252Ffooter%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
                     style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
                     sandbox="allow-scripts allow-same-origin">
-                  </iframe>
+                </iframe>
+            </div>
+
+
+
+            <!-- card3-->
+            <h3 class="h3">Vertical Card with text-overlay</h3><br>
+            <div class=" card card3">
+                <div class="text-overlay">Out of stock</div>
+                <div class="card-badge">
+                    <span class="sale-badge">on Sale</span>
+                    <button class="dismiss-badge">X</button>
+                    <img class="card-image"
+                        src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60">
+                    <div class="card-text">
+                        <h3>T-shirt</h3>
+                        <div> cotton T-shirt with a white logo on it.very comfortable to wear.Available in all sizes.
+                        </div>
+                    </div>
+                    <footer class="footer">
+                        <h4>Rs. 300</h4> <button>Buy</button>
+                    </footer>
                 </div>
+            </div>
+            <br><br>
 
-                <!-- card 2-->
-
-                <div id="card2" class="cards">
-                    <div class="text">
-                        <h2>Chinese Noodles</h2>
-                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
-                            noodles.
-                        </h5>
-                    </div>
-                    <div class="card-pic">
-                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
-                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
-
-                    </div>
-
-                    <div class="footer">
-                        <button class="button">Retry</button>
-                        <button class="button">Bookmark</button>
-                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
-                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
-                    </div>
-                </div>
+            <div class="iframe-code pb1 flex-column">
                 <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520id%253D%2522card2%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tast%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%250A"
-                style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522%2520card%2520card3%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522text-overlay%2522%253EOut%2520of%2520stock%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-badge%2522%253Eon%2520Sale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss-badge%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1583743814966-8936f5b7be1a%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%25253D%25253D%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch3%253ET-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520cotton%2520T-shirt%2520with%2520a%2520white%2520logo%2520on%2520it.very%2520comfortable%2520to%2520wear.Available%2520in%2520all%2520sizes.%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%2520%253Ch4%253ERs.%2520300%253C%252Fh4%253E%2520%253Cbutton%253EBuy%253C%252Fbutton%253E%253C%252Ffooter%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                    style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
-                <!-- card 3-->
 
-                <div id="card3" class="cards">
-                    <div class="card-pic">
-                        <img src="/docs/assets/food.jpg" class="food-pic" alt="Picture of Noodles">
-                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
-
-                    </div>
-                    <div class="text">
-                        <h2>Chinese Noodles</h2>
-                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
-                            noodles.
-                        </h5>
-                    </div>
-                    <div class="footer">
-                        <button class="button">Retry</button>
-                        <button class="button">Bookmark</button>
-                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
-                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
+            <h3 class="h3">Text only card</h3><br>
+            <div class=" card card4">
+                <div class="card-text mt1">
+                    <h1 class="pb1">Title</h1>
+                    <h3 class="pb1">sub-heading</h3>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad error aperiam
+                        qui omnis rerum. Autem iure iste saepe laboriosam voluptatem.
+                        Voluptates mollitia nostrum, cumque alias ullam ipsum inventore magnam quaerat.
                     </div>
                 </div>
+            </div>
 
+            <div class="iframe-code pb1 flex-column">
                 <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%2520%2520%253Cdiv%2520id%253D%2522card3%2522%2520class%253D%2522cards%2522%253E%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A"
-                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520class%253D%2522%2520card%2520card4%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2520mt1%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522pb1%2522%253ETitle%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522pb1%2522%253Esub-heading%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ad%2520error%2520aperiam%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520qui%2520omnis%2520rerum.%2520Autem%2520iure%2520iste%2520saepe%2520laboriosam%2520voluptatem.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Voluptates%2520mollitia%2520nostrum%252C%2520cumque%2520alias%2520ullam%2520ipsum%2520inventore%2520magnam%2520quaerat.%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
-                <!--card 4-->
-                <div id="card4" class="cards">
-                    <div class="card-pic">
-                        <img src="assets/food.jpg" class="food-pic" alt="Picture of Noodles">
-                        <img src="assets/likeButton.png" alt="like button" class="like-btn">
 
+            <!---------Card 5---------->
+            <h3 class="h3">Horizontal card with shadow</h3><br>
+            <div class="card card5">
+                <section class="img-container">
+                    <div class="card-badge">
+                        <span class="sale-badge">on Sale</span>
+                        <button class="dismiss-badge">X</button>
+                        <img class="card-image"
+                            src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60">
+                </section>
+                <section class="text-container">
+                    <div class="card-text">
+                        <h1 class="pd1">T-shirt</h1>
+                        <div class="pl1"> cotton T-shirt with a white logo on it.very comfortable to wear.Available in
+                            all sizes.
+                        </div>
                     </div>
-                    <div class="text">
-                        <h2>Chinese Noodles</h2><br>
-                        <h5>Healthy and easy to make chinese noddles.Make your day a more good one.Enjoy our tasty
-                            noodles.
-                        </h5>
-                    </div>
-                    <div class="footer">
-                        <button class="button">Retry</button>
-                        <button class="button">Bookmark</button>
-                        <button class="button"><img src="assets/shareIcon.png" alt="share-btn"></button>
-                        <button class="button"> <img src="assets/settingButton.jpg" alt="setting-btn"></button>
-                    </div>
-                </div>
-
+                    <footer class="footer mt2">
+                        <h4>Rs. 300/-</h4> <button>Buy</button>
+                    </footer>
+                </section>
+            </div>
+            <br><br>
+            <div class="iframe-code pb1 flex-column">
                 <iframe
-                src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520id%253D%2522card4%2522%2520class%253D%2522cards%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-pic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252Ffood.jpg%2522%2520class%253D%2522food-pic%2522%2520alt%253D%2522Picture%2520of%2520Noodles%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522assets%252FlikeButton.png%2522%2520alt%253D%2522like%2520button%2522%2520class%253D%2522like-btn%2522%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EChinese%2520Noodles%253C%252Fh2%253E%253Cbr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch5%253EHealthy%2520and%2520easy%2520to%2520make%2520chinese%2520noddles.Make%2520your%2520day%2520a%2520more%2520good%2520one.Enjoy%2520our%2520tasty%2520noodles.%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fh5%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253ERetry%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253EBookmark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%253Cimg%2520src%253D%2522assets%252FshareIcon.png%2522%2520alt%253D%2522share-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522button%2522%253E%2520%253Cimg%2520src%253D%2522assets%252FsettingButton.jpg%2522%2520alt%253D%2522setting-btn%2522%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E%250A%250A"
-                style=" height: 200px;  border:0; transform: scale(1); overflow:hidden;"
-                sandbox="allow-scripts allow-same-origin">
-              </iframe>
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520card5%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522img-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-badge%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522sale-badge%2522%253Eon%2520Sale%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522dismiss-badge%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520class%253D%2522card-image%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.unsplash.com%252Fphoto-1583743814966-8936f5b7be1a%253Fixlib%253Drb-1.2.1%2526ixid%253DMnwxMjA3fDB8MHxzZWFyY2h8Nnx8dCUyMHNoaXJ0fGVufDB8fDB8fA%25253D%25253D%2526auto%253Dformat%2526fit%253Dcrop%2526w%253D400%2526q%253D60%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Csection%2520class%253D%2522text-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-text%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253ET-shirt%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%253E%2520cotton%2520T-shirt%2520with%2520a%2520white%2520logo%2520on%2520it.very%2520comfortable%2520to%2520wear.Available%2520in%2520all%2520sizes.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch4%253ERs.%2520300%253C%252Fh4%253E%2520%253Cbutton%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fsection%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <br><br>
+
+            <div class="text  mt2" id="image">
+                <h2 class="pb1 h2">Images</h2><br>
+                <p class="pb2">img-parent class is for both the parents of image tags. resp-img class for the responsive
+                    image parent element and round-img class is for round image parent element. </p>
+                <h2>Examples</h2>
+            </div>
+
+            <h3 class="h3">Responsive image</h3><br>
+            <div class="resp-img img-parent"><img src="/docs/assets/avatar.jpg" alt="responsive image"></div>
+
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520class%253D%2522resp-img%2520img-parent%2522%253E%250A%2520%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%2520alt%253D%2522responsive%2520image%2522%253E%250A%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
 
 
-            </main>
+            <br><br>
+            <h3 class="h3">Round image</h3><br>
+            <div class="round-img img-parent"><img src="/docs/assets/avatar.jpg"></div>
+            <div class="iframe-code pb1 flex-column">
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=vscode&wt=none&l=auto&width=680&ds=true&dsyoff=61px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522round-img%2520img-parent%2522%253E%250A%253Cimg%2520src%253D%2522%252Fdocs%252Fassets%252Favatar.jpg%2522%253E%250A%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520"
+                    style=" height: 200px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+
+
+
+
 
 
 

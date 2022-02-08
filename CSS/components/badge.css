@@ -5,7 +5,6 @@
 }
 
 .badge-parent {
-    position: absolute;
   position: relative;
   max-width: fit-content;
   padding: 3px;

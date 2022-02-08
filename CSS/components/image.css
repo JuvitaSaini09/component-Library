@@ -1,0 +1,23 @@
+
+.img-parent{
+    width:500px;
+}
+.img-parent img{
+    width:100%;
+    height: auto;
+}
+.round-img img{
+    width:20rem;
+    height:20rem;
+    border-radius:50%;
+}
+@media screen and (max-width:900px) {
+    .img-parent{
+        width:400px;
+    }
+    .round-img img{
+        width:15rem;
+        height:15rem;
+        border-radius:50%;
+    }
+}

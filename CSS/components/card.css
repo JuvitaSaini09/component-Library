@@ -1,101 +1,112 @@
-
-.food-pic {
-    height: 300px;
-    width: 100%;
-}
-
-#container {
-    display: flex;
-    flex-flow: row wrap;
-
-}
-
-.cards {
-    margin: 10px;
-    color: brown;
-    flex-basis: 300px;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
-
-}
-
-
-.like-btn {
-    position: absolute;
-    bottom: 75px;
-    border-radius: 50%;
-    height: 50px;
-    top: 260px;
-    width: 50px;
-    left: 15px;
-
-}
-
-button:hover {
-    background-color: pink;
-}
-
-.text {
-    padding: 2px;
-    margin: 0 5px 0 5px;
-}
-
-button {
-    color: rgb(119, 13, 119);
-    border-style: none;
-    font-weight: bold;
-    height: 40px;
-    margin-top: 5px;
-}
-
-.button img {
-    height: 18px;
-    width: 16px;
-    margin-left: 40px;
-
-}
-
-#card3 .card-pic .food-pic {
-    height: 200px;
-    width: 150px;
-    ;
-}
-
-#card3 {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 350px;
-
-}
-
-#card3 div {
-    flex-basis: 150px;
-
-}
-
-#card3 .footer:nth-of-type(3) {
-    flex-basis: 500px;
-
-}
-
-footer {
-    display: inline;
-}
-
-#container #card3 {
-    height: 280px;
-}
-
-#card4 .card-pic .food-pic {
-    height: 350px;
-    width: 100%;
-}
-
-#card4 .text {
-
+.card {
+    position:relative;
+    margin-top: 20px;
     position: relative;
-    bottom: 45px;
-    border-radius: 50%;
-    height: 50px;
-    width: 250px;
+    height: 24rem;
+    width: 12rem;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .sale-badge {
+      padding-top:3px;
+      font-weight:500;
+    position: absolute;
+    top: -3px;
+    left: -5px;
+    height: 1.7rem;
+    width: 4.7rem;
+    text-align: center;
+    border: 1px solid orange;
+    background-color: gold;
+    border-radius: 10px;
+  }
+  .card-image {
+    border-radius: 5px 5px 0px 0px;
+    height: 14rem;
+    width: 12rem;
+  }
+  .card-text {
+    font-size: 14px;
+    margin: 0px 10px 0 10px;
+  }
+  
+  .footer {
+    margin-top: 0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+  }
+  .footer button{
+    border:none;
+    color:white;
+    background-color:red;
+    height:2rem;
+    width:3.5rem;
+    border-radius:5px;
+  }
+  .footer button:hover{
+    background-color:rgb(255, 123, 0);
+  }
+  
+  .dismiss-badge{
+    font-size:20px;
+    font-weight:bold;
+      position: absolute;
+    top:0px;
+    right:0px;
+    width: 2rem;
+    color:red;
+    text-align: center;
+    border:2px red solid;
+    background-color: white;
+    border-radius:3px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+      rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  }
+  .dismiss-badge:hover{
+    background-color:pink;
+    
+  }
+  .text-overlay{
+    font-weight:bold;
+    font-size:26px;
+    padding-top:6rem;
+    text-align:center;
+    background-color:grey;
+    top:0;
+    left:0;
+    right:0;
+    bottom:10rem;
+    position:absolute;
+    opacity:0.7;
+  }
+  .card4{
 
-}
+    height: 12rem;
+    width: 22rem;
+  }
+  .card5{
+    display:flex;
+    height:12rem;
+      width:24rem;
+      box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+      transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1);
+     
+  }
+ 
+    
+  .card5 .card-image{
+      border-radius: 5px 5px 0px 0px;
+      height: 12rem;
+      width: 10rem;
+    }
+    .card5 .dismiss-badge{
+        right:14rem;
+    }
+    .card:hover:hover {
+        box-shadow: 0px 11px 15px -7px rgba(0, 0, 0, 0.2), 0px 24px 38px 3px rgba(0, 0, 0, 0.14), 0px 9px 46px 8px rgba(0, 0, 0, 0.12);
+      }
+  
+  
