@@ -7,6 +7,11 @@
 @import url(./components/card.css);
 @import url(/CSS/components/image.css);
 @import url(/CSS/components/input.css);
+@import url(/CSS/components/list.css);
+@import url(/CSS/components/nav.css);
+@import url(/CSS/components/star.css);
+@import url(/CSS/components/modal.css);
+@import url(/CSS/components/toast.css);
 
 
 :root {
@@ -190,9 +195,15 @@ button{
 .ml2 {
   margin-left: 2rem;
 }
+.ml3 {
+  margin-left: 3rem;
+}
 
 .ml4 {
   margin-left: 4rem;
+}
+.ml5{
+  margin-left: 5rem;
 }
 
 .ml6 {

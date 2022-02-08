@@ -1,0 +1,44 @@
+.list-container{
+    font-size:18px;
+    width:25rem;
+    
+}
+.ol-list li{
+    list-style:decimal;
+    padding:5px;
+}
+.un-list li{
+    list-style:disc;
+    padding:5px;
+}
+.simple-list{
+    border-radius:5px;
+    border:1px solid rgb(224, 222, 222);
+}
+.simple-list li{
+    border:1px solid rgb(224, 222, 222);
+    width:100%;
+    padding:0.6rem;
+}
+.list-container button{
+    background-color: grey;
+    font-size: 20px;
+    font-weight:bold;
+    margin-right:1rem;
+    height:30px;
+    width:30px;
+    border-radius:50%;
+}
+.list-container button:hover{
+   background-color: rgb(153, 148, 148);
+}
+.stack-list-time{
+    color: rgb(61, 58, 58);
+    font-size:14px;
+    padding-left:3rem;
+}
+.stack-list-sub{
+    color: rgb(61, 58, 58);
+    font-size:14px;
+    margin-left:3rem;
+}
