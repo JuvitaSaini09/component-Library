@@ -16,20 +16,11 @@ h2 {
 .logo {
     color:rgb(182, 64, 64);
 }
-.drawer-title{
-    text-align:center;
-    width:200px;
-    border-radius:10px;
-    font-size:26px;
-    background-color:white;
-    color:rgb(138,8,8);
-}
 .drawer{
-    background-color:rgb(138,8,8);
     border-radius: 7px;
     color:var(--grey);
     height: 100%;
-    width: 200px;
+    width: 180px;
     position: fixed; 
     z-index: 1; 
     top: 100px; 
@@ -45,10 +36,7 @@ h2 {
     border:5px solid rgb(182, 64, 64);
     padding: 2rem;
     border-radius: 10px;
-}
-.drawer a{
-    font-size:20px;
-    color:white;
+
 }
 iframe{
     width:851px;
@@ -74,14 +62,14 @@ h3{
 
 
 
-@media screen and (max-width:1100px) {
+@media screen and (max-width:1200px) {
     iframe{
         width:651px;
         height:303px;
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:1000px) {
     iframe{
         width:451px;
         height:303px;
@@ -90,7 +78,7 @@ h3{
         width:80%;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:900px) {
 
     .h1 {
         font-size: 38px;
