@@ -1,0 +1,21 @@
+.rating-container{
+    padding:1rem;
+    border:1px solid rgb(204, 195, 195);
+    width:fit-content;
+}
+.star{
+    display:inline-block;
+    color: #b8b8b0;
+    font-size:30px;
+}
+.hover{
+    color:rgb(250, 229, 38);
+}
+.final{
+ color:rgb(255, 94, 0);
+}
+.star-rating{
+ margin:30px 0;
+ font-weight:bold;
+ text-align: center;
+}

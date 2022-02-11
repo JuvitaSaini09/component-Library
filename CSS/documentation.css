@@ -1,17 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Source+Sans+Pro:wght@200;400&family=Ubuntu&display=swap');
+
+#body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
 .navigation {
     background-color: var(--yellow);
     padding: 1rem;
-  
-    
+}
+h2 {
+    color: rgb(138, 8, 8);
 }
 .logo {
-    color: var(--primary-brown1);
+    color:rgb(182, 64, 64);
 }
 .drawer{
-    background-color:var(--yellow-light);
-    position:fixed;
     border-radius: 7px;
-    
+    color:var(--grey);
+    height: 100%;
+    width: 180px;
+    position: fixed; 
+    z-index: 1; 
+    top: 100px; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+}
+.main-body{
+    margin-left:15rem;
+}
+.component-container{
+    text-align:left;
+    border:5px solid rgb(182, 64, 64);
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+iframe{
+    width:851px;
+    height:303px;
 }
 
 #nav-container {
@@ -20,8 +49,36 @@
     position: fixed;
     top: 0;
 }
+iframe{
+    overflow-x: auto;
+    
+}
+.text p{
+    width:60%;
+}
+h3{
+    color:var(--grey);
+}
 
-@media screen and (max-width:600px) {
+
+
+@media screen and (max-width:1200px) {
+    iframe{
+        width:651px;
+        height:303px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    iframe{
+        width:451px;
+        height:303px;
+    }
+    .text p{
+        width:80%;
+    }
+}
+@media screen and (max-width:900px) {
 
     .h1 {
         font-size: 38px;
@@ -32,8 +89,32 @@
         font-size: 20px;
         line-height: 24px;
     }
+
+    .p4{
+        font-size:13px;
+    }
+    
+    iframe{
+        width:400px;
+        height:303px;
+    }
     .drawer{
         visibility: hidden;
+        width:0px;
+        height:0px;
+        padding:0px;
+        margin:0px
     }
+    .main-body{
+        margin-left:2rem;
+    }
+  
 
 }
+/*    <div class="avatar-container .badge-container">
+            <img class="avatar avatar-xl" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-l" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-m" src="/docs/assets/avatar.jpg">
+            <img class="avatar avatar-s" src="/docs/assets/avatar.jpg">
+        </div>
+        */

@@ -1,0 +1,24 @@
+.text-input-container{
+ width:20rem;
+ padding:10px;
+ background-color:rgb(231, 224, 224);
+ 
+}
+.text-input{
+    font-size: 16px;
+    padding: 5px;
+  height:auto;
+  width:96%;
+  border-radius:3px;
+  margin:5px;
+  border-width: 2px;
+}
+#success{
+ border-color:green;
+}
+#warn{
+  border-color:rgb(197, 128, 0);
+}
+#error{
+  border-color:red;
+}

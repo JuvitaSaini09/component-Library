@@ -1,0 +1,71 @@
+.avatar {
+    vertical-align:middle;
+    font-size: 24px;
+    color:white;
+    margin-bottom: 4rem;
+ 
+
+}
+.avatar-container{
+  margin-left: 3rem;
+}
+
+/* round avatar*/
+
+.avatar-xl {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.avatar-l {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: orange;
+}
+
+.avatar-m {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.avatar-s {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+
+/*square avatar */
+
+
+.sq-avatar-xl {
+    height: 100px;
+    width: 100px;
+    border-radius: 3px;
+    
+}
+
+.sq-avatar-l {
+    height: 80px;
+    width: 80px;
+    border-radius: 3px;
+    background-color: orange;
+}
+
+.sq-avatar-m {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+    background-color: pink;
+}
+
+.sq-avatar-s {
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color:blueviolet;
+}

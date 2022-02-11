@@ -1,0 +1,53 @@
+.modal-container{
+    width:27rem;
+    font-size:25px;
+    border:1px solid rgb(160, 156, 156);
+}
+
+.modals{
+    padding:1rem;
+    height:5rem;
+}
+.modal-row1{
+    display:flex;
+    justify-content: space-between;
+    border-bottom:1px solid rgb(160, 156, 156);
+}
+.modal-row3{
+    display:flex;
+    justify-content:right;
+    border-top:1px solid rgb(160, 156, 156);
+}
+.modal-close{
+ font-size: 34px;
+ color:rgb(98, 97, 97);
+ background-color: white;;
+
+}
+.modal-close:hover{
+    color:black;
+   }
+   .modal-row2{
+       font-size:16px;
+   }
+  .modal-row3 button{
+      font-size:18px;
+    padding:1rem;
+    margin-left:5px;
+      color:white;
+      border-radius: 5px;
+  }
+  .modal-row3 .close{
+     background-color:grey;
+   }
+   .modal-row3 .save{
+   background-color:rgb(54, 89, 246);
+
+}
+
+.modal-row3 .close:hover{
+    background-color:rgb(100, 97, 97);
+}
+.modal-row3 .save:hover{
+    background-color:rgb(26, 60, 212);
+}
